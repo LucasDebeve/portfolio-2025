@@ -1,0 +1,47 @@
+[
+    {
+        "poste": "Développeur",
+        "entreprise": "Rectorat de l'académie de Reims",
+        "dateDeb": "04/2024",
+        "dateFin": "06/2024",
+        "image": "rectorat.png",
+        "missions": [
+            "Benchmark de bases de données",
+            "Migration de données",
+            "Migration d'applications Symfony",
+            "Redaction de documentation technique"
+        ]
+    },
+    {
+        "poste": "Développeur DATA",
+        "entreprise": "Cerfrance CNEIDF",
+        "dateDeb": "09/2024",
+        "image": "cerfrance.png",
+        "missions": [
+            "Développement d'applications Symfony",
+            "Conception de tableau de bord web"
+        ]
+    },
+    {
+        "poste": "Formateur BAFA",
+        "entreprise": "UFCV",
+        "dateDeb": "12/2023",
+        "image": "ufcv.png",
+        "missions": [
+            "Gestion de groupe",
+            "Animation de sessions de formation",
+            "Évaluation des compétences"
+        ]
+    },
+    {
+        "poste": "Animateur",
+        "entreprise": "CCGPF, CSEC, CGCV...",
+        "dateDeb": "04/2022",
+        "missions": [
+            "Gestion de groupe",
+            "Animation d'activités",
+            "Organisation d'événements",
+            "Encadrement de séjours de vacances"
+        ]
+    }
+]

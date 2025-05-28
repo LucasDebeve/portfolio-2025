@@ -1,0 +1,73 @@
+[
+    {
+        "category": "Web",
+        "skills": [
+            {
+                "title": "Symfony",
+                "image": "symfony.png"
+            },
+            {
+                "title": "Vite",
+                "image": "vite.png"
+            },
+            {
+                "title": "React",
+                "image": "react.png"
+            },
+            {
+                "title": "Next.js",
+                "image": "nextjs.svg"
+            },
+            {
+                "title": "Tailwind CSS",
+                "image": "tailwind.png"
+            }
+        ]
+    },
+    {
+        "category": "Data & IA",
+        "skills": [
+            {
+                "title": "Python",
+                "image": "python.webp"
+            },
+            {
+                "title": "Pandas",
+                "image": "pandas.png"
+            },
+            {
+                "title": "Polars",
+                "image": "polars.png"
+            },
+            {
+                "title": "Grafana",
+                "image": "grafana.svg"
+            },
+            {
+                "title": "Power BI",
+                "image": "powerbi.png"
+            },
+            {
+                "title": "SQL",
+                "image": "sql.png"
+            }
+        ]
+    },
+    {
+        "category": "Autres outils",
+        "skills": [
+            {
+                "title": "Git",
+                "image": "git.png"
+            },
+            {
+                "title": "Docker",
+                "image": "docker.webp"
+            },
+            {
+                "title": "Figma",
+                "image": "figma.png"
+            }
+        ]
+    }
+]

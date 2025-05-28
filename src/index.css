@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Amarante", cursive;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
