@@ -6,8 +6,8 @@ function Header() {
                 <p className="text-xl md:text-2xl font-light text-center mt-4">Président de la République Française</p>
             </div>
             <div className="h-full">
-                <img src="avatar3D.png" alt="huile" className="object-cover w-full h-full max-h-[90svh] block dark:hidden" />
-                <img src="avatar3D-nuit.png" alt="huile" className="object-cover w-full h-full max-h-[90svh] hidden dark:block" />
+                <img src="avatar3D.png" alt="huile" className="object-cover w-full h-full max-h-[90svh] block dark:hidden lg:pb-[1px]" />
+                <img src="avatar3D-nuit.png" alt="huile" className="object-cover w-full h-full max-h-[90svh] hidden dark:block lg:pb-[1px]" />
             </div>
         </section>
     );
