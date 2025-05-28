@@ -8,11 +8,11 @@
             },
             {
                 "title": "Vite",
-                "image": "vite.png"
+                "image": "vite.webp"
             },
             {
                 "title": "React",
-                "image": "react.png"
+                "image": "react.webp"
             },
             {
                 "title": "Next.js",
@@ -20,7 +20,7 @@
             },
             {
                 "title": "Tailwind CSS",
-                "image": "tailwind.png"
+                "image": "tailwind.webp"
             }
         ]
     },
@@ -37,7 +37,7 @@
             },
             {
                 "title": "Polars",
-                "image": "polars.png"
+                "image": "polars.webp"
             },
             {
                 "title": "Grafana",
@@ -45,11 +45,11 @@
             },
             {
                 "title": "Power BI",
-                "image": "powerbi.png"
+                "image": "powerbi.webp"
             },
             {
                 "title": "SQL",
-                "image": "sql.png"
+                "image": "sql.webp"
             }
         ]
     },
@@ -58,7 +58,7 @@
         "skills": [
             {
                 "title": "Git",
-                "image": "git.png"
+                "image": "git.webp"
             },
             {
                 "title": "Docker",
@@ -66,7 +66,7 @@
             },
             {
                 "title": "Figma",
-                "image": "figma.png"
+                "image": "figma.webp"
             }
         ]
     }
