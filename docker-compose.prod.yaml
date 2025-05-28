@@ -1,0 +1,30 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.portfolio-http.rule=Host(`lucasdebeve.eu`)
+      - traefik.http.routers.portfolio-http.entrypoints=websecure
+      - traefik.http.routers.portfolio-http.tls.certresolver=myresolver
+      - traefik.http.services.portfolio.loadbalancer.server.port=80
+      - traefik.http.middlewares.test-ratelimit.ratelimit.average=100
+      - traefik.http.middlewares.test-ratelimit.ratelimit.burst=200
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external: true
