@@ -21,6 +21,10 @@ services:
       - traefik.http.middlewares.redirect-to-non-www.redirectregex.regex=^https?://www\.(.+)
       - traefik.http.middlewares.redirect-to-non-www.redirectregex.replacement=https://$$1
       - traefik.http.middlewares.redirect-to-non-www.redirectregex.permanent=true
+      - glance.name=Portfolio
+      - glance.icon=di:vite
+      - glance.url=https://www.lucasdebeve.eu
+      - glance.description=Portfolio personnel
     networks:
       - frontend
       - app_network
